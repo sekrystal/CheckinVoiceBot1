@@ -1,0 +1,9 @@
+{
+  "id": "ceb3d486-8bf9-4795-8872-75453f72e306",
+  "name": "feelings",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

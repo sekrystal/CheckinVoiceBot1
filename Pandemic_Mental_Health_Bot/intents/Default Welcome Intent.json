@@ -1,0 +1,46 @@
+{
+  "id": "9813c353-9080-4fe7-8279-2b6c2c7644be",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hey there, how are you feeling?",
+            "Howdy friend, tell me how you\u0027re feeling.",
+            "Hello there, tell me how you\u0027re feeling!",
+            "Top of the mornin\u0027 to ya! How are you feeling today?",
+            "Ahoy!  Tell me how you\u0027re feeling today matey!",
+            "What it do boo, hit me with those feelings.",
+            "What\u0027s popping bud? Want to do a lil check-in? Tell me how you\u0027re feeling.",
+            "Greetings, I would like to know how you\u0027re holding up in these trying times."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

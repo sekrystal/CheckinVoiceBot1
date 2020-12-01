@@ -1,0 +1,40 @@
+{
+  "id": "6037bf06-213f-4f9a-98bf-2bdcb7a0ae64",
+  "parentId": "2f792a15-03a0-4f1f-a30e-2a83187231d0",
+  "rootParentId": "03370e4f-7918-431e-a2f8-e152278269f1",
+  "name": "feels_Ok_No",
+  "auto": true,
+  "contexts": [
+    "feels_Ok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "feels.feels-yes.feels_Ok-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No worries! Take care of yourself in the meantime, and feel free to check in anytime 😁"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

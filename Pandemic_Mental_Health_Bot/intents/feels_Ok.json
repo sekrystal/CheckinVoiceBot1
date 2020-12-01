@@ -1,0 +1,46 @@
+{
+  "id": "2f792a15-03a0-4f1f-a30e-2a83187231d0",
+  "parentId": "03370e4f-7918-431e-a2f8-e152278269f1",
+  "rootParentId": "03370e4f-7918-431e-a2f8-e152278269f1",
+  "name": "feels_Ok",
+  "auto": true,
+  "contexts": [
+    "feels-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "feels.feels-yes",
+      "affectedContexts": [
+        {
+          "name": "feels_Ok-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Real talk, nobody\u0027s ~thriving~ during the pandemic. It\u0027s easy to lose sight of how hard we work just to cope with the situation we\u0027re in. Sometimes setting up a routine with built in break times can help alleviate some of the existential dread we\u0027re all felling! Would you like some funny internet content to watch when you take your next break?",
+            "It\u0027s ok to feel just ok! Sometimes when we try to \"better\" ourselves we end up picking up extra stress instead - don\u0027t forget to love and appreciate yourself. Anyway, want to see some funny internet content?",
+            "If you\u0027re feeling so-so, sometimes all you need is an emotional pick-me-up! I can hit you with some content that will make you smile - sound good?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

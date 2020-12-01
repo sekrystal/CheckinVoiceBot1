@@ -1,0 +1,51 @@
+{
+  "id": "a9d46c1b-3cdf-4d39-b5c4-946e53de1f6a",
+  "parentId": "03370e4f-7918-431e-a2f8-e152278269f1",
+  "rootParentId": "03370e4f-7918-431e-a2f8-e152278269f1",
+  "name": "feels_Bad",
+  "auto": true,
+  "contexts": [
+    "feels-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "feels.feels-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "092a2324-820c-46ed-9b7b-799dd6f483d9",
+          "name": "feelings",
+          "required": false,
+          "dataType": "@feelings",
+          "value": "$feelings",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "450d0a21-d877-49fb-b9a4-29d0f9798777",
+  "parentId": "2f792a15-03a0-4f1f-a30e-2a83187231d0",
+  "rootParentId": "03370e4f-7918-431e-a2f8-e152278269f1",
+  "name": "feels_Ok_Yes",
+  "auto": true,
+  "contexts": [
+    "feels_Ok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "feels.feels-yes.feels_Ok-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This one gets me every time: https://www.youtube.com/watch?v\u003dY7dI8fdXQW0",
+            "Check this out: https://www.youtube.com/watch?v\u003d2BS3oePljr8",
+            "To be honest, all of the videos in this playlist spark joy, but I\u0027ll hit you with my favorite one: https://www.youtube.com/watch?v\u003dvSSLqHJzy6Y",
+            "This is a cute one: https://www.youtube.com/watch?v\u003dLACbVhgtx9I",
+            "This makes me chuckle: https://www.youtube.com/watch?v\u003d3hktwBqEwVw",
+            "If you weren\u0027t familiar with bird law, you will be soon: https://www.youtube.com/watch?v\u003dIzAaxsG0mhU"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

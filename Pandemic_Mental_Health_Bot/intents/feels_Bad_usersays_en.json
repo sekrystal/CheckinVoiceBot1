@@ -1,0 +1,62 @@
+[
+  {
+    "id": "9667487c-2926-465c-94d7-aae30223d1a2",
+    "data": [
+      {
+        "text": "negative",
+        "meta": "@feelings",
+        "alias": "feelings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c11cc48-a9b7-4cd3-88ac-59500a8d6d72",
+    "data": [
+      {
+        "text": "awful",
+        "meta": "@feelings",
+        "alias": "feelings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f321ab81-27c7-460f-af1e-10a516d36eb8",
+    "data": [
+      {
+        "text": "terrible",
+        "meta": "@feelings",
+        "alias": "feelings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06dee675-6252-406d-a335-2aadbf1581c5",
+    "data": [
+      {
+        "text": "bad",
+        "meta": "@feelings",
+        "alias": "feelings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

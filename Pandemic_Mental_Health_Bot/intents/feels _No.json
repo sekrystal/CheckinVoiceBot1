@@ -1,0 +1,40 @@
+{
+  "id": "dc2560e7-5a30-4bbf-bd9b-ddccddb5de64",
+  "parentId": "03370e4f-7918-431e-a2f8-e152278269f1",
+  "rootParentId": "03370e4f-7918-431e-a2f8-e152278269f1",
+  "name": "feels _No",
+  "auto": true,
+  "contexts": [
+    "feels-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "feels.feels-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sometimes we don\u0027t ask for help, and that\u0027s ok! I\u0027m here for you whenever you want to check in again."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
